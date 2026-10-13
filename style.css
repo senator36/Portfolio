@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SENATOR // Intelligence & OSINT Analyst</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="scanline"></div>
+
+  <!-- Навигационный Терминал -->
+  <nav class="cyber-nav">
+    <div class="brand">
+      <span class="blink">►</span> SENATOR<span class="badge">OSINT // ANALYST</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about"><span class="num">01.</span> Досье</a></li>
+      <li><a href="#vector"><span class="num">02.</span> Направления</a></li>
+      <li><a href="#cases"><span class="num">03.</span> Расследования</a></li>
+      <li><a href="#contact"><span class="num">04.</span> Канал связи</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="hero-container">
+      <div class="status-bar">
+        <span class="status-dot"></span> SYSTEM ONLINE // ACCESS GRANTED
+      </div>
+      <h1 class="glitch-title">SENATOR</h1>
+      <p class="hero-subtitle">
+        <span class="highlight-text">2.5 года</span> практических расследований. Превращаю разрозненные цифровые следы в неопровержимую хронологию фактов.
+      </p>
+      
+      <div class="console-box">
+        <div class="console-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="console-title">terminal_init.sh</span>
+        </div>
+        <div class="console-body">
+          <p><span class="prompt">$</span> senator --experience <span class="val">"2.5 years"</span></p>
+          <p><span class="prompt">$</span> senator --methods <span class="val">["OSINT", "GEOINT", "Due Diligence", "Chronology"]</span></p>
+          <p><span class="prompt">$</span> senator --status <span class="val-active">"READY FOR INVESTIGATION"</span></p>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#cases" class="cyber-btn primary">Ознакомиться с кейсами</a>
+        <a href="https://t.me/controler_senata" target="_blank" class="cyber-btn secondary">Запросить аудит</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Секция: Досье / О себе -->
+  <section id="about" class="cyber-section">
+    <div class="section-header">
+      <h2><span class="hash">//</span> 01. ДОСЬЕ И МЕТОДОЛОГИЯ</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>В эпоху избытка информации ключевым навыком является умение отсеивать шум. Мой подход базируется на глубоком анализе <strong>Open Source Intelligence (OSINT)</strong>, верификации метаданных и сопоставлении пространственно-временных координат.</p>
+        <p>Я восстанавливаю цепочки событий, выявляю скрытые связи объектов и структурирую хаотичные данные в наглядные отчеты с доказательной базой.</p>
+      </div>
+      <div class="stats-card">
+        <div class="stat-item">
+          <div class="stat-num">2.5+</div>
+          <div class="stat-label">Лет опыта в спец. расследованиях</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Фактологическая верификация</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция: Векторы работы -->
+  <section id="vector" class="cyber-section">
+    <div class="section-header">
+      <h2><span class="hash">//</span> 02. ВЕКТОРЫ АНАЛИТИКИ</h2>
+    </div>
+    <div class="vectors-grid">
+      
+      <div class="vector-card">
+        <div class="card-icon">🔍</div>
+        <h3>Due Diligence</h3>
+        <p>Комплексная проверка физических и юридических лиц, выявление конфликтных интересов, аффилированности, скрытых активов и репутационных рисков.</p>
+      </div>
+
+      <div class="vector-card">
+        <div class="card-icon">🌍</div>
+        <h3>GEOINT & IMINT</h3>
+        <p>Геолокация по фото и видеоматериалам, анализ спутниковых снимков, определение времени съемки по теням и ландшафтным особенностям.</p>
+      </div>
+
+      <div class="vector-card">
+        <div class="card-icon">⏳</div>
+        <h3>Хронологический анализ</h3>
+        <p>Сопоставление таймлайнов событий, восстановление последовательности действий объектов, реконструкция инцидентов шаг за шагом.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Секция: Раскрытые Кейсы -->
+  <section id="cases" class="cyber-section">
+    <div class="section-header">
+      <h2><span class="hash">//</span> 03. МАТЕРИАЛЫ РАССЛЕДОВАНИЙ</h2>
+    </div>
+
+    <div class="cases-wrapper">
+      
+      <!-- Кейс 1 -->
+      <div class="case-card">
+        <div class="case-tag">CASE #001 // NOTION DOSSIER</div>
+        <h3 class="case-title">Аналитический отчёт / Расследование №1</h3>
+        <p class="case-desc">Подробный разбор кейса с использованием методов геолокации, сбора данных из открытых источников и построения причинно-следственных связей.</p>
+        <a href="https://app.notion.com/p/3f7fa297567c80808615e8" target="_blank" class="case-link">
+          Открыть дело (Notion) ↗
+        </a>
+      </div>
+
+      <!-- Кейс 2 -->
+      <div class="case-card">
+        <div class="case-tag">CASE #002 // NOTION DOSSIER</div>
+        <h3 class="case-title">Аналитический отчёт / Расследование №2</h3>
+        <p class="case-desc">Верификация фактов, деанонимизация/анализ цифрового следа и воссоздание хронологии событий в интерактивном формате.</p>
+        <a href="https://app.notion.com/p/3f8fa297567c80b59cbbe7" target="_blank" class="case-link">
+          Открыть дело (Notion) ↗
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Секция: Зашифрованная связь -->
+  <section id="contact" class="cyber-section">
+    <div class="contact-box">
+      <h2><span class="hash">//</span> 04. ЗАЩИЩЕННЫЙ КАНАЛ СВЯЗИ</h2>
+      <p>Нужна проверка контрагента, геолокация объекта или экспертное расследование? Выберите удобный способ связи:</p>
+      
+      <div class="contact-buttons">
+        <a href="https://t.me/controler_senata" target="_blank" class="contact-card">
+          <div class="c-icon">💬</div>
+          <div class="c-info">
+            <span class="c-label">Telegram</span>
+            <span class="c-val">@controler_senata</span>
+          </div>
+        </a>
+
+        <a href="mailto:senator36@proton.me" class="contact-card">
+          <div class="c-icon">🔒</div>
+          <div class="c-info">
+            <span class="c-label">Encrypted Email</span>
+            <span class="c-val">senator36@proton.me</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>SENATOR // INTEL SERVICES © 2026. ALL DATA VERIFIED.</p>
+  </footer>
+
+</body>
+</html>
